@@ -41,5 +41,3 @@ function removeElementFromEndOfArray(chocolateBars) {
  return chocolateBars.slice(0, chocolateBars.length -1)
 }
 
-var items = ['orange', 'yellow', 'blue', 'white', 'green']
-console.log ([...items.slice(0,2), ...items.slice(3)])
